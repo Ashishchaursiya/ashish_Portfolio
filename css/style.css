@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
@@ -527,6 +527,10 @@ padding:10px 20px;
   background-color:#ffc31d !important;
   
  }
+ 
+ 
+ 
+ 
 #exampleSlider .MS-content {
   margin: 15px 5%;
   overflow: hidden;
@@ -572,6 +576,8 @@ height:50%;
     width: 100%;
   }
 }
+ 
+ 
   /*footer section */
   footer{
     background-color: #1f2229;
