@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Crete+Round&family=Hammersmith+One&display=swap');
+html, body{
+  height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+
+
+/*custom navbar */
+ 
+ 
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+   
+  font-family: 'Crete Round', serif;
+}
+
+.sidenav a:hover {
+  color: #ffc31d;
+  text-decoration: none;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px !important;
+  margin-left: 50px;
+  color: #ffc31d;
+  font-family: 'Merienda One', cursive;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.navbar-toggler-icon,.navbar-collapse{
+display:none !important;
+}
+
+ .navbar{
+    background-color:#393e48;   
+}
+.navbar li a{
+
+color:white !important;
+font-size:16px;
+text-transform:uppercase;
+margin-right:55px;
+}
+.navbar li a:hover{
+
+color:#ffc31d !important;
+ 
+}
+/*home section */
+#particles-js{
+width: 100%; 
+height: 100%;  
+ background-color:#393e48;
+position: relative;
+}
+ 
+#text{
+text-transform: capitalize;
+position: absolute;
+}
+#text .text-cont h4{
+  font-weight: 600;
+  font-size: 26px;
+  color:#ffc31d !important;
+  font-family: 'Hammersmith One', sans-serif;
+}
+#text .text-cont h1{
+  font-weight: 700;
+  color:white !important;
+  font-family: 'Merienda One', cursive;
+}
+#text .text-cont div{
+  font-weight: 600;
+  font-size: 14px;
+  color:white !important;
+  line-height: 29px;
+
+}
+#text .text-cont button{
+ background-color:#ffc31d ;
+ padding: 10px 30px;
+ border:none;
+
+}
+#text .text-cont button a{
+  color:black ;
+  font-weight: 600;
+ }
+ #text .text-cont button .fa-envelope{
+padding-right: 5px !important;
+ }
+ #text .text-cont .fab{
+  color:#ffc31d ;
+  padding-left: 20px;
+  font-size: 30px;
+  
+ 
+ }
+#text .img-cont h4{
+  font-weight: 600;
+}
+#text .img-cont{
+  padding-left: 200px !important;
+}
+
+/*home image  */
+  .card{
+position:relative;
+overflow:hidden;
+height:400px !important;
+}
+.card img{
+  height:400px !important;
+ 
+}
+.card-body{
+position:absolute;
+ bottom:-100%;
+transition:0.5s;
+background:linear-gradient(0deg,#ffc31d,transparent);
+
+}
+.card:hover .card-body{
+bottom:0;
+}
+ /*about section */
+ #about{
+   background-color: #252931;
+ }
+ #about h4{
+   color:#ffc31d;
+   font-family: 'Balsamiq Sans', cursive;
+   font-size: 30px;
+  font-weight: 600;
+ }
+ #about p{
+  font-family: 'Crete Round', serif;
+}
+#about h3{
+  font-family: 'Balsamiq Sans', cursive;
+  color: rgb(108, 117, 125) !important;
+}
+#about .box{
+ position: relative;
+}
+#about .inner{
+  position:absolute;
+top:2px;
+left:2px;
+width:100%;
+height:100%;
+
+background-color:rgba(0,0,0,0.2);
+ transition:clip-path 1s;
+clip-path:circle(10% at 40px 40px);
+ }
+#about .box:hover .inner{
+  clip-path:circle(75%);
+  top:0;
+  left:0;
+  }
+#about .box h4{
+  font-family: "Hammersmith One", sans-serif;
+  color:#ffc31d;
+  font-size: 24px;
+}
+#about .box hr{
+  background-color: rgb(255, 231, 167);
+}
+#about .box p{
+  font-family: "Hammersmith One", sans-serif;
+  color:white;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#about .box .clg{
+  font-family: "Hammersmith One", sans-serif;
+  color:white;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#about .box .pr{
+  font-family: 'Crete Round', serif;
+  color:white;
+}
+#about .box{
+   background-color:#2c323c ;
+}
+ /*technical section */
+ #technical{
+  background-color: #252931;
+}
+#technical h3{
+  font-family: 'Balsamiq Sans', cursive;
+  color: rgb(108, 117, 125) !important;
+}
+#technical .icon-cont img{
+  width: 60px;
+  height: 60px;
+}
+#technical  h5{
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: -11px !important;
+}
+#technical .icon-cont p{
+  font-family: 'Crete Round', serif;
+  text-transform: capitalize;
+}
+#technical .icon-cont ul{
+  list-style-type: none;
+  margin: 0 !important;
+  padding-left: 0;
+  color: white;
+  display: inline;
+  
+}
+#technical .icon-cont li{
+  margin:-5px 1px;
+  list-style-type: none;
+  display: inline;
+  font-family: 'Crete Round', serif;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-style: italic;
+}
+/*download button section */
+ #dwn a{
+  background-color: #252931 !important;
+   position:absolute;
+   left:50%;
+   text-transform: uppercase;
+   transform: translate(-50%,-50%);
+  color:#1670f0;
+  padding:20px 30px;
+  font-size:20px;
+  letter-spacing:2px;
+  text-decoration:none;
+  box-shadow:0 20px 50px rgba(0,0,0,.5);
+  overflow: hidden;
+  }
+  #dwn a:before
+  {
+  content:"";
+  position: absolute;
+  top:2px;
+  left: 2px;
+  bottom: 2px;
+  width: 50%;
+  background: rgba(255,255,255,0.05);
+   
+  }
+  #dwn a span:nth-child(1)
+  {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,#0c002b,#1779ff);
+    animation: animate1 2s linear infinite;
+  }
+  @keyframes animate1{
+    0%
+    {
+      transform: translateX(-100%);
+    }
+    100%
+    {
+      transform: translateX(100%);
+    }
+  }
+  #dwn a span:nth-child(2)
+  {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(to bottom,#0c002b,#1779ff);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+  }
+  @keyframes animate2{
+    0%
+    {
+      transform: translateY(-100%);
+    }
+    100%
+    {
+      transform: translateY(100%);
+    }
+  }
+  #dwn a span:nth-child(3)
+  {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    height:2px;
+    width:100%;
+    background: linear-gradient(to left,#0c002b,#1779ff);
+    animation: animate3 2s linear infinite;
+  }
+  @keyframes animate3{
+    0%
+    {
+      transform: translateX(100%);
+    }
+    100%
+    {
+      transform: translateX(-100%);
+    }
+  }
+  #dwn  a span:nth-child(4)
+  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:2px;
+    background: linear-gradient(to top,#0c002b,#1779ff);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+  }
+  @keyframes animate4{
+    0%
+    {
+      transform: translateY(100%);
+    }
+    100%
+    {
+      transform: translateY(-100%);
+    }
+  }
+
+ /*project section */
+ #project{
+  background-color: #252931;
+}
+#project h4{
+  color:#ffc31d;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+#project p{
+ font-family: 'Crete Round', serif;
+}
+#project .pro-box img:hover{
+  transform: scale(1.1);
+  transition: 2s;
+  
+}
+#project .pro-box{
+  position:relative;
+  overflow:hidden;
+  }
+  #project .pro-box .img-info{
+    text-transform: capitalize;
+    color:#ffc31d;
+    font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+  color:white;
+  position:absolute;
+   bottom:-100%;
+  transition:0.5s;
+  background:linear-gradient(0deg,rgba(0,0,0,0.7),transparent);
+  
+  }
+  #project .pro-box .img-info h5{
+    color:#ffc31d;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  #project .pro-box .img-info a{
+    color:black;
+    background-color:#ffc31d;
+    padding:10px 25px;
+    font-weight: 500;
+  }
+  #project .pro-box .img-info a:hover{
+  text-decoration: none;
+  }
+  #project .pro-box:hover .img-info{
+  bottom:0;
+  }
+  /*certificate section */
+  #certificate{
+    background-color: #252931;
+  }
+  #certificate h4{
+    color:#ffc31d;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+   font-weight: 600;
+   text-transform: capitalize;
+  }
+  #certificate p{
+   font-family: 'Crete Round', serif;
+ }
+ #certificate .item .crt-info{
+   color:white;
+ }
+ #certificate .item .crt-info span{
+  font-size: 15px;
+  text-transform: capitalize;
+}
+#certificate .item .crt-info h5{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 21px;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+#certificate .item .crt-info p{
+  font-size: 13px;
+color:rgba(255,255,255,0.7);
+ text-transform: capitalize;
+ word-spacing: 2px;
+}
+ /*contact section */
+ #contact{
+  background-color: #252931;
+}
+#contact h4{
+  color:#ffc31d;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 30px;
+ font-weight: 600;
+ text-transform: capitalize;
+}
+#contact p{
+ font-family: 'Crete Round', serif;
+ text-transform: capitalize;
+ color:white;
+ 
+}
+#contact .cnt{
+  font-family: 'Crete Round', serif;
+  text-transform: capitalize;
+  color:white;
+  line-height: 10px;
+ }
+#contact h5{
+  color:white;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+ text-transform: capitalize;
+}
+#contact a{
+  color:#ffc31d !important;
+  padding-right:10px;
+  font-size: 20px !important;
+  
+}
+#contact form input[type="text"],#contact input[type="email"]
+{
+padding:10px 20px;
+width:100%;
+border: 2px solid rgba(255, 195, 29, 0.39);
+background-color: #1f2430;
+color: #ececec;
+border-radius: 5px;
+  
+}
+#contact form input[type="text"],#contact input[type="email"],textarea:focus
+{
+ outline:none; 
+}
+#contact form textarea{
+  width:100%;
+  border: 2px solid rgba(255, 195, 29, 0.39);
+background-color: #1f2430;
+color: #ececec;
+border-radius: 5px;
+padding:10px 20px;
+}
+::placeholder{
+  font-family: 'Crete Round', serif;
+  
+}
+#contact form label{
+  font-family: 'Crete Round', serif;
+  text-transform: capitalize;
+  color:white;
+  
+ }
+ #contact form button{
+  font-family: 'Crete Round', serif;
+  text-transform: capitalize;
+  color:black;
+  padding:10px 60px;
+  background-color:#ffc31d !important;
+  
+ }
+  /*footer section */
+  footer{
+    background-color: #1f2229;
+    font-size: 14px;
+    padding:15px 10px;
+    color:white;
+    font-family: 'Crete Round', serif;
+    text-transform: capitalize;
+  }
+ @media (max-width:768px){
+  #text h3{
+      font-size: 30px;
+  }
+  #text .img-cont,#text .text-cont{
+    padding-left: 0 !important;
+  }
+  #text .img-cont{
+    display: none;
+  }
+  #technical .icon-cont h5{
+    font-size:17px;
+    font-weight: 500;
+    
+  }
+  #dwn a{
+    padding:10px 0px;
+    font-size:15px;
+    }
+    
+}
+ 
+  
