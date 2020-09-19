@@ -7,6 +7,7 @@ html, body{
   height: 100%;
     width: 100%;
     scroll-behavior: smooth;
+background:#EEEEEE;
 }
 
 
@@ -23,7 +24,7 @@ html, body{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -36,6 +37,7 @@ right:-25px;
 border:none !important;
 outline:none !important;
 }
+
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -71,7 +73,7 @@ display:none !important;
 }
 
  .navbar{
-    background-color:#393e48;   
+    background-color:#262626;   
 }
 .navbar li a{
 
@@ -86,10 +88,11 @@ color:#ffc31d !important;
  
 }
 /*home section */
+/*    background-color:#393e48;  */
 #particles-js{
 width: 100%; 
 height: 100%;  
- background-color:#393e48;
+ background-color:#262626;
 position: relative;
 }
  
@@ -116,23 +119,45 @@ position: absolute;
 
 }
 #text .text-cont button{
- background-color:#ffc31d ;
- padding: 10px 30px;
+ background-color: #262626;
+color:#ffc31d !important;
+ padding: 14px 30px 8px;
  border:none;
-
+  border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+#text .text-cont button:active{
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+     inset #000000 4px 4px 8px,
+     #4d4d4d -4px -4px 8px;
 }
 #text .text-cont button a{
-  color:black ;
+  color:#ffc31d ;
   font-weight: 600;
+ 
  }
+#text .text-cont  a:active{
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+     inset #000000 4px 4px 8px,
+     #4d4d4d -4px -4px 8px;
+}
  #text .text-cont button .fa-envelope{
 padding-right: 5px !important;
  }
  #text .text-cont .fab{
   color:#ffc31d ;
-  padding-left: 20px;
+  padding: 10px;
   font-size: 30px;
-  
+    border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
  
  }
 #text .img-cont h4{
@@ -147,6 +172,7 @@ padding-right: 5px !important;
 position:relative;
 overflow:hidden;
 height:400px !important;
+box-shadow:-6px -6px 6px 0 rgba(255,255,255,0.09),3px 3px 3px 0 rgba(255,255,255,0.06) !important;
 }
 .card img{
   height:400px !important;
@@ -162,9 +188,10 @@ background:linear-gradient(0deg,#ffc31d,transparent);
 .card:hover .card-body{
 bottom:0;
 }
- /*about section */
+ /*about section  #252931,#2c323c */
  #about{
-   background-color: #252931;
+  
+ background-color:#262626;
  }
  #about h4{
    color:#ffc31d;
@@ -181,6 +208,7 @@ bottom:0;
 }
 #about .box{
  position: relative;
+  
 }
 #about .inner{
   position:absolute;
@@ -188,7 +216,7 @@ top:2px;
 left:2px;
 width:100%;
 height:100%;
-
+ 
 background-color:rgba(0,0,0,0.2);
  transition:clip-path 1s;
 clip-path:circle(10% at 40px 40px);
@@ -225,11 +253,16 @@ clip-path:circle(10% at 40px 40px);
   color:white;
 }
 #about .box{
-   background-color:#2c323c ;
+   border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+ 
 }
  /*technical section */
  #technical{
-  background-color: #252931;
+  background-color: #262626;
 }
 #technical h3{
   font-family: 'Balsamiq Sans', cursive;
@@ -238,6 +271,11 @@ clip-path:circle(10% at 40px 40px);
 #technical .icon-cont img{
   width: 60px;
   height: 60px;
+padding:10px;
+   box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
 }
 #technical  h5{
   font-family: "Hammersmith One", sans-serif;
@@ -268,8 +306,9 @@ clip-path:circle(10% at 40px 40px);
 }
 /*download button section */
  #dwn a{
-  background-color: #252931 !important;
+  background-color: #262626 !important;
    position:absolute;
+ 
    left:50%;
    text-transform: uppercase;
    transform: translate(-50%,-50%);
@@ -377,7 +416,7 @@ clip-path:circle(10% at 40px 40px);
 
  /*project section */
  #project{
-  background-color: #252931;
+  background-color: #262626;
 }
 #project h4{
   color:#ffc31d;
@@ -396,6 +435,11 @@ clip-path:circle(10% at 40px 40px);
 #project .pro-box{
   position:relative;
   overflow:hidden;
+  border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
   }
   #project .pro-box .img-info{
     text-transform: capitalize;
@@ -427,7 +471,7 @@ clip-path:circle(10% at 40px 40px);
   }
   /*certificate section */
   #certificate{
-    background-color: #252931;
+    background-color: #262626;
   }
   #certificate h4{
     color:#ffc31d;
@@ -460,7 +504,7 @@ color:rgba(255,255,255,0.7);
 }
  /*contact section */
  #contact{
-  background-color: #252931;
+  background-color: #262626;
 }
 #contact h4{
   color:#ffc31d;
@@ -468,6 +512,7 @@ color:rgba(255,255,255,0.7);
   font-size: 30px;
  font-weight: 600;
  text-transform: capitalize;
+text-shadow:6px 6px 6px 0 rgba(255,255,255,0.09) !important;
 }
 #contact p{
  font-family: 'Crete Round', serif;
@@ -490,16 +535,34 @@ color:rgba(255,255,255,0.7);
 }
 #contact a{
   color:#ffc31d !important;
-  padding-right:10px;
+  padding:10px;
   font-size: 20px !important;
-  
+    border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+#contact a:active{
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+     inset #000000 4px 4px 8px,
+     #4d4d4d -4px -4px 8px;
 }
 #contact form input[type="text"],#contact input[type="email"]
 {
 padding:10px 20px;
 width:100%;
 border: 2px solid rgba(255, 195, 29, 0.39);
-background-color: #1f2430;
+background-color: #262626;
+ 
+   border-radius: 2px;
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+   inset  #000000 4px 4px 8px,
+   inset  #4d4d4d -4px -4px 8px;
+ 
+ 
 color: #ececec;
 border-radius: 5px;
   
@@ -511,7 +574,12 @@ border-radius: 5px;
 #contact form textarea{
   width:100%;
   border: 2px solid rgba(255, 195, 29, 0.39);
-background-color: #1f2430;
+background-color:#262626;
+    border-radius: 2px;
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+   inset  #000000 4px 4px 8px,
+   inset  #4d4d4d -4px -4px 8px;
 color: #ececec;
 border-radius: 5px;
 padding:10px 20px;
@@ -529,65 +597,30 @@ padding:10px 20px;
  #contact form button{
   font-family: 'Crete Round', serif;
   text-transform: capitalize;
-  color:black;
+  color:#ffc31d;
   padding:10px 60px;
-  background-color:#ffc31d !important;
+   border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+  background-color: #262626 !important;
   
  }
- 
- 
- 
- 
-#exampleSlider .MS-content {
-  margin: 15px 5%;
-  overflow: hidden;
-  white-space: nowrap;
-  
+#contact form button:active{
+  box-shadow:
+    inset #262626 0px 0px 2px 2px,
+     inset #000000 4px 4px 8px,
+     #4d4d4d -4px -4px 8px;
 }
-@media (max-width: 767px) {
-  #exampleSlider .MS-content {
-    margin: 0;
-  }
-}
-#exampleSlider .MS-content .item {
-  display: inline-block;
-  overflow: hidden;
-  position: relative;
-  vertical-align: top;
-  width: 40%;
-  margin:2px 20px;
-}
- 
-@media (max-width: 992px) {
-  #exampleSlider .MS-content .item {
-    width: 50%;
-
-  }
-}
-@media (max-width: 767px) {
-  #exampleSlider .MS-content .item {
-    width: 50%;
-  }
-}
-#exampleSlider .MS-content .item img{
-width:100%;
-height:50%;
-  text-align: center;
-  vertical-align: middle;
-  margin: 20;
-  padding: 10px 40;
-}
- 
-@media (max-width: 768px) {
-  #exampleSlider .MS-content .item {
-    width: 100%;
-  }
-}
- 
- 
   /*footer section */
   footer{
-    background-color: #1f2229;
+    background-color: #262626;
+   border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
     font-size: 14px;
     padding:15px 10px;
     color:white;
@@ -617,3 +650,60 @@ height:50%;
 }
  
   
+
+ 
+ 
+ 
+ 
+#exampleSlider .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+  
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  width: 40%;
+  margin:2px 20px;
+  border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
+}
+ 
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+#exampleSlider .MS-content .item img{
+width:100%;
+height:50%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20;
+  padding: 10px 40;
+}
+ 
+@media (max-width: 768px) {
+  #exampleSlider .MS-content .item {
+    width: 100%;
+  }
+}
+ 
+ 
