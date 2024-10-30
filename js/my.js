@@ -1,7 +1,6 @@
   $(document).ready(function(){
     $(window).scroll(function(){
       var position=$(document).scrollTop();
-     console.log(position)
       if((position>1946 && position<2216)){
           $(".m1").addClass("animate__animated animate__bounceInRight");
       }

@@ -63,8 +63,12 @@ outline:none !important;
   color: #ffc31d;
   font-family: 'Merienda One', cursive;
 }
-
+@media screen and (max-width: 450px) {
+  #project .pro-box{
+    height:145px !important}
+}
 @media screen and (max-height: 450px) {
+  
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
@@ -159,6 +163,16 @@ padding-right: 5px !important;
     #000000 4px 4px 8px,
     #4d4d4d -4px -4px 8px;
  
+ }
+ .emailBox{
+  color:#ffc31d ;
+  padding: 10px;
+  font-size: 30px;
+    border-radius: 2px;
+  box-shadow:
+    #262626 0px 0px 2px 2px,
+    #000000 4px 4px 8px,
+    #4d4d4d -4px -4px 8px;
  }
 #text .img-cont h4{
   font-weight: 600;
@@ -433,6 +447,7 @@ padding:10px;
   
 }
 #project .pro-box{
+  height:275px;
   position:relative;
   overflow:hidden;
   border-radius: 2px;
